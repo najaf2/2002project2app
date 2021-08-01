@@ -1,16 +1,17 @@
 body {
-    background-color: springgreen;
+    background-color: teal;
     position: relative;
 
     padding: 5% 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  
 }
 
 #title {
     color: white;
-    font-size: 100px; 
+    font-size: 150px; 
     font-weight: bolder;
-    font-family: monospace;
-
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -21,7 +22,7 @@ body {
 }
 
 #childUp {
-    background-color: maroon; /* Green */
+    background-color: #B7121F;
     border: 15px solid white;
     color: white;
     text-align: center;
@@ -44,7 +45,7 @@ body {
 }
 
 #childDown {
-    background-color: skyblue; /* Green */
+    background-color: rgb(0, 0, 197);
     border: 15px solid white;
     color: white;
     text-align: center;
